@@ -1,31 +1,40 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Liu</title>
-  <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="estilos.css" />
+  <script src="script.js" defer></script>
 </head>
 <body>
   <div class="container">
     <div class="sidebar">
-      <div class="logo">Logo</div>
-      <button>Opción 1</button>
-      <button>Opción 2</button>
-      <button>Opción 3</button>
-      <button>Opción 4</button>
+      <div class="perfil">
+        <div class="avatar"></div>
+        <h2>Liu</h2>
+      </div>
+      <button class="btn">Ver galería</button>
+      <button class="btn">Comisiones</button>
+      <button class="btn">Más...</button>
     </div>
+
     <div class="main">
       <div class="imagenes">
         <button class="arrow left">&#9664;</button>
-        <button class="arrow right">&#9654;</button>
-        <div class="imagenes-buttons">
+        <div class="image-frame" id="image-frame">
         </div>
+        <button class="arrow right">&#9654;</button>
       </div>
     </div>
   </div>
+
   <footer>
-    Pie de página
+    <div class="footer-icons">
+      <span>📸</span>
+      <span>✉️</span>
+      <span>🐦</span>
+    </div>
   </footer>
 </body>
 </html>
