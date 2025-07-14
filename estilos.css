@@ -117,3 +117,18 @@ footer {
   font-size: 22px;
   color: #aaa;
 }
+
+/* Por ahora pongo imagenes de ejemplo, después mis dibujos.*/
+.image-frame {
+  width: 100%;      
+  height: 100%;     
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.image-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  
+  border-radius: 20px;
+}
