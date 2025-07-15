@@ -24,7 +24,25 @@ document.addEventListener('DOMContentLoaded', () => {
       showImage(currentIndex);
     });
   
-    // Mostrar la primera imagen al cargar
+    // Mostrar la primera imagen al cargar.
     showImage(currentIndex);
+
+    const botonGaleria = document.getElementById("verGaleria");
+
+    botonGaleria.addEventListener("click", () => {
+      window.location.href = "galeria.html"; 
+    });
+
+    const botonComisiones = document.getElementById("verComisiones");
+
+    botonComisiones.addEventListener("click", () => {
+      window.location.href = "comisiones.html"; 
+    });
+
+    const botonMas = document.getElementById("verMas");
+
+    botonMas.addEventListener("click", () => {
+      window.location.href = "mas.html"; 
+    });
   });
-  
+
